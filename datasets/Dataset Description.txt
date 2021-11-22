@@ -1,0 +1,34 @@
+Input: 
+File Names and format:
+(1) Patient ID
+(2) Test Code (diseas list)
+(3) Checkup Date YYYY-MM-DD format
+(4) Doctor ID (Who prescibe for this Patient)
+
+For testing purpose, we have used  some test code as follows:
+
+33 = Regular insulin dose
+34 = NPH insulin dose
+35 = UltraLente insulin dose
+48 = Unspecified blood glucose measurement
+57 = Unspecified blood glucose measurement
+58 = Pre-breakfast blood glucose measurement
+59 = Post-breakfast blood glucose measurement
+60 = Pre-lunch blood glucose measurement
+61 = Post-lunch blood glucose measurement
+62 = Pre-supper blood glucose measurement
+63 = Post-supper blood glucose measurement
+64 = Pre-snack blood glucose measurement
+65 = Hypoglycemic symptoms
+66 = Typical meal ingestion
+67 = More-than-usual meal ingestion
+68 = Less-than-usual meal ingestion
+69 = Typical exercise activity
+70 = More-than-usual exercise activity
+71 = Less-than-usual exercise activity
+72 = Unspecified special event
+
+Output:
+Then we create a new chain for new patient and for existing patient we link up with the previous block. 
+
+We have create two blockhain one is for Doctors and another is for patient. all hashcode of these two blockchain are stored in two seperate sheeet
